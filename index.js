@@ -1,5 +1,5 @@
-import {pikachu, Squirtle, Charmander, Bulbasaur} from "./modules/habilidadespokemon"
-alert('Ha llegado la hora de comenzar tu aventura pokemon');
+/* import {pikachu, Squirtle, Charmander, Bulbasaur} from "./functionalModules/habilidadespokemon"
+ */alert('Ha llegado la hora de comenzar tu aventura pokemon');
 let nombreMaestro = prompt('Pero antes, dinos tu nombre de maestro pokemon:');
 let answer = prompt(`Tu nombre de maestro pokemon elegido para esta aventura es: ` + nombreMaestro + ' ¿Estás de acuerdo? s/n');
 ValidarNombre();

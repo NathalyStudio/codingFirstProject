@@ -1,0 +1,88 @@
+/*esto es para instalar fuentes*/
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("fonts/Ubuntu-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("fonts/Ubuntu-Light.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("fonts/Ubuntu-Medium.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("fonts/Ubuntu-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url(fonts/CormorantGaramond-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url(fonts/CormorantGaramond-Medium.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url(fonts/CormorantGaramond-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Staatliches;
+    src: url(./fonts/Staatliches-Regular.ttf);
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* MASTER Styles */
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    font-family: Staatliches, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 2rem 10px 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.title-main {
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    font-weight: 400;
+}
+.logo-name {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.master-bg {
+    background-image: url(./img/adventure-gdf8f4a4b7_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+}
