@@ -1,4 +1,4 @@
-export let nombreMaestro
-export let answer
-export let opciones
+export var nombreMaestro;
+export var answer;
+export var opciones;
 
